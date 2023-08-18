@@ -53,6 +53,7 @@
     background: none;
     border: none;
     padding: 0 10px;
+    color: #e21;
 }
 
 .botoes-direito button {
@@ -81,7 +82,7 @@
         padding: 5px;
     }
 
-    .nav-itens{
+    .nav-itens {
         display: none;
         position: absolute;
         top: 70px;
@@ -95,12 +96,12 @@
         background: #ffffff;
     }
 
-    .nav-itens li{
+    .nav-itens li {
         margin-bottom: 40px;
     }
 
 
     .nav-itens.ativo {
-        display: block;
+        display: flex;
     }
 }
